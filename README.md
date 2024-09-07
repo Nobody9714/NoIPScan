@@ -1,5 +1,5 @@
 Summary:
-"NoIPScan.py" is a simple yet powerful tool that scans your local network for connected devices, providing a list of discovered devices. All without stupid grayware, ads, or deceptive download links.
+"NoIPScan.py" is a simple yet powerful tool that scans your local network for connected devices, providing a list of discovered devices. All without grayware, ads, data harvesting, or deceptive download links.
 
 Features:
 Network Scanning: Scan your local network  for device's hostname, NIC Vendor, IP address and MAC address. Includes optional multiple scans attemps because sometimes 1 just isnt enough.
