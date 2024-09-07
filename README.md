@@ -38,18 +38,19 @@ If you find this script useful or would like to show your thanks, consider donat
 
 Please only donate the native token (e.g. SOL, MATIC, XMR) or the token of the DePIN project you found this github from.
 
-Monaro (XMR):
+Monaro (XMR):  
 46ReDpJp11aG3rDfR5dprQQdYfaCuZxXHgqpGhV6zWJUaG8RAuL8zcH2aSht73z6oFYzpNAuwUJVeAe4fD61Q7vAKmjdZjr
+![xmrqr512](https://github.com/user-attachments/assets/43cba4d9-e3cd-4e57-9dde-7e8b976f7de9)
 
 
-
-Polygon (MATIC):
+Polygon (MATIC):  
 0x185Cf68c8A69c6b22De3D531B339B5D362067304
 
+![maticqr512](https://github.com/user-attachments/assets/b1f27ef3-ddb8-42de-b2a6-bbe9309442e0)
 
 
-Solana (SOL):
+Solana (SOL):  
 Ccz6zf12AJB1xweDZ3SHhfJB9VgLxL52iLKjtzHL2nSb
 
-
+![solqr512](https://github.com/user-attachments/assets/5bf4b0c3-adb7-4aca-8881-b1e9aa65f90d)
 
