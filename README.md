@@ -53,5 +53,6 @@ Polygon (MATIC):
 Solana (SOL):  
 Ccz6zf12AJB1xweDZ3SHhfJB9VgLxL52iLKjtzHL2nSb
 
-![solqr512](https://github.com/user-attachments/assets/5bf4b0c3-adb7-4aca-8881-b1e9aa65f90d)
+![solqr512](https://github.com/user-attachments/assets/425d31fa-8cb0-4a1f-aaac-df3d22083d83)
+
 
