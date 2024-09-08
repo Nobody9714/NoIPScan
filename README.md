@@ -1,6 +1,6 @@
 ## Summary
 
-NoIPScan is a Python script designed to scan your local network for connected devices. I made this python script so there is an IP scanner option that is not full of bloatware, spyware, ads, data harvesting, or deceiving download links like you'll find on most websites. This tool was developed with the assistance of Claude 3.5 Sonnet and other generative AI models for everything including code, readme forematting, and images.
+NoIPScan is a Python script designed to scan your local network for connected devices. I made this python script so there is an IP scanner option that is not full of bloatware, spyware, ads, data harvesting, or deceiving download links like you'll find on most websites. This tool was developed with the assistance of Claude 3.5 Sonnet and other generative AI models for everything including code, readme forematting, and images. Then edited as necessary.
 
 ## Features
 
@@ -32,6 +32,8 @@ NoIPScan is a Python script designed to scan your local network for connected de
    d. Disable MAC Address lookup on https://api.macvendors.com. This is encase you dont want to use this to help identify devices more thoroughly than just IP and MAC addresses.
 
    e. # of scans to do on the network because sometimes 1 isn't enough.
+
+   f. Right click an entry in the list for more options.
 
 ## Requirements
 
