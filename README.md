@@ -50,7 +50,7 @@ Easy methode:
    
 5. The python script will check for and ask permission to install any missing dependencies. Press y then enter to move forward.
 
-Shell:
+Shell methode:
 1. Open a terminal and clone repository.
 ```
 git clone https://github.com/Nobody9714/NoIPScan.git
