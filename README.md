@@ -46,7 +46,7 @@ Easy methode:
 
 ![2](https://github.com/user-attachments/assets/116c5250-6237-49dc-94a6-ad07bc88346a)
 
-3. Open the NoIPScan folder.
+3. Open the folder "NoIPScan-main".
    
 4. Double click the file called "NoIPScan.bat".
    
