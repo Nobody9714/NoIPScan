@@ -8,7 +8,7 @@ NoIPScan is a Python script designed to scan your local network for connected de
 - Automatic detection of local IP range
 - Concurrent scanning for improved speed
 - Various means to help identify devices other than using IP/MAC addresses.
-- Alphanumaricly sortable list by clicking the headers or right clicking in the list > sort > sorting option.
+- Alphanumerically sortable list by clicking the headers or right clicking in the list > sort > sorting option.
 - Disable MAC address lookup using https://api.macvendors.com. This will slightly increase scan speed but also make it harder to identify what the devices are.
   
 ## How to Use
