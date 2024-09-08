@@ -33,6 +33,11 @@ webbrowser: For opening web browsers directly from the application (default pack
 queue: Used to handle concurrent requests and responses; part of the standard library in Python 3.x. 
 threading: Enables multithreading for improved performance, included with Python's standard library.
 
+Uninstall:
+The IP scanner its self isnt ever "Installed". The IP scanner is just a python script thats ran using a batch file to make it more user friendly. The only things that get installed are the requirments to run the script. You can uninstall the requirments you dont want by opening powershell and using the relative command(s): 
+
+
+
 Donations:
 If you find this script useful or would like to show your thanks, consider donating using 1 of the following wallet addresses:
 
