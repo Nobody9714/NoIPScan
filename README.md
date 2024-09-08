@@ -1,63 +1,101 @@
-Summary:
-"NoIPScan.py" is a simple yet powerful tool that scans your local network for connected devices, providing a list of discovered devices. All without grayware, ads, data harvesting, or deceptive download links.
+## Summary
 
-Features:
-Network Scanning: Scan your local network  for device's hostname, NIC Vendor, IP address and MAC address. Includes optional multiple scans attemps because sometimes 1 just isnt enough.
-Device Identification: Uses various methodes to identify the device. Including a MAC address lookup using https://api.macvendors.com over https (read more below) to identify the NIC vendor. 
-Disable MAC Lookup: Disables the MAC address lookup encase your worried about it.
-Sort Options: Click the column headers to sort the devices alphanumaricly.
-Copy: Right click to copy an entry for a specific device.
-Web Browser Integration: Right click or highlight a device and select "Open in Browser" to open the selected device's IP address in your default web browser. Some devices may require a port or more specific path.
+NoIPScan is a Python script designed to scan your local network for connected devices. I made this python script so there is an IP scanner option that is not full of bloatware, spyware, ads, data harvesting, or fake download links like you'll find on most websites. This tool was developed with the assistance of Claude 3.5 Sonnet and other genorative AI models for images.
 
-Install Instructions:
+## Features
+
+- Fast and efficient IP scanning
+- Automatic detection of local IP range
+- Concurrent scanning for improved speed
+- Various means to help identify devices other than using IP/MAC addresses.
+- Alphanumaricly sortable list by clicking the headers or right clicking in the list > sort > sorting option.
+- Disable MAC address lookup using https://api.macvendors.com. This will slightly increase scan speed but also make it harder to identify what the devices are.
+  
+## How to Use
+
+Easy Methode: 
+
+1. Double click the file called "NoIpScan.bat".
+   
+3. Agree to install any missing dependencies.
+   
+5. Everything in the program should be fine to leave as default. Just press the "Scan Network" button to scan for devices on your local network.
+
+   Optional:
+   
+   a. Custom network address.
+   
+   b. Custom IP range from 1-254
+   
+   c. Hide MAC Address, toggle to hide/unhide all mac addresses.
+   
+   d. Disable MAC Address lookup on https://api.macvendors.com. This is encase you dont want to use this to help identify devices more thoroughly than just IP and MAC addresses.
+
+   e. # of scans to do on the network because sometimes 1 isn't enough.
+
+## Installation
 
 Easy methode:
-1. Click the green "< > Code" Button, then click "Download Zip".
-2. Go to your downloads folder and extract the file using something like 7zip, then open the folder called "NoIPScan".
-3. Launch the file called "Start NoIPScan".
-4. Follow the prompts as you may need to install the below requirments to run the script.
-5. Done! You should be able to use the network scanner now.
+1. Click the green "< > Code" button, then click "Download ZIP"
+   
+3. Unzip the downloaded folder using something like 7zip.
+   
+5. Open the NoIPScan folder.
+   
+7. Double click the "NoIPScann.bat" file.
+   
+9. The python script will check for and ask permission to install any missing dependencies. Press y then enter to move forward.
 
-Shell methode:
-1. Clone this repository using git clone https://github.com/Nobody9714/NoIPScan.git. 
-2. Navigate into the project directory with cd NoIPScan. 
-3. Run the script using Python: python NoIPScan.py.
-4. Install the requirments when prompted to.
-5. Done! You should be able to use the network scanner now.
-
-Requirements:
-Python: Version 3.x or higher. 
-tkinter: A built-in Python library; ensure it's enabled in your Python installation. 
-asyncio: Used for asynchronous programming, included with Python 3.5 and later versions.
-webbrowser: For opening web browsers directly from the application (default package). 
-queue: Used to handle concurrent requests and responses; part of the standard library in Python 3.x. 
-threading: Enables multithreading for improved performance, included with Python's standard library.
-
-Uninstall:
-The IP scanner its self isnt ever "Installed". The IP scanner is just a python script thats ran using a batch file to make it more user friendly. The only things that get installed are the requirments to run the script. You can uninstall the requirments you dont want by opening powershell and using the relative command(s): 
-
-
-
-Donations:
-If you find this script useful or would like to show your thanks, consider donating using 1 of the following wallet addresses:
-
-Please only donate the native token (e.g. SOL, MATIC, XMR) or the token of the DePIN project you found this github from.
-
-Monaro (XMR):  
-46ReDpJp11aG3rDfR5dprQQdYfaCuZxXHgqpGhV6zWJUaG8RAuL8zcH2aSht73z6oFYzpNAuwUJVeAe4fD61Q7vAKmjdZjr
-
-![xmrqr512](https://github.com/user-attachments/assets/43cba4d9-e3cd-4e57-9dde-7e8b976f7de9)
+Shell:
+1. Open a terminal and clone repository.
+```
+git clone https://github.com/Nobody9714/NoIPScan.git
+```
+2. Move into the directory.
+```
+cd NoIPScan
+```
+3. Run the python script.
+```
+python NoIPScan.py
+```
+4. The python script will check for and ask permission to install any missing dependencies. Press y then enter to move forward.
 
 
-Polygon (MATIC):  
-0x185Cf68c8A69c6b22De3D531B339B5D362067304
+## Requirements
 
-![maticqr512](https://github.com/user-attachments/assets/b1f27ef3-ddb8-42de-b2a6-bbe9309442e0)
+- Python 3.6 or higher
+- Required Python libraries:
+  - `scapy`
+  - `netifaces`
+  - `mac_vendor_lookup`
 
+You can install the required libraries using pip:
 
-Solana (SOL):  
-Ccz6zf12AJB1xweDZ3SHhfJB9VgLxL52iLKjtzHL2nSb
+```
+pip install scapy netifaces mac-vendor-lookup
+```
 
-![solqr512](https://github.com/user-attachments/assets/425d31fa-8cb0-4a1f-aaac-df3d22083d83)
+## Donation
 
+If you find NoIPScan useful and would like to support its development, consider making a donation to the creator. [Add your preferred donation method and link here]
 
+## License
+
+[Include your chosen license information here]
+
+## Disclaimer
+
+This tool is intended for use on networks you own or have permission to scan. Always ensure you have the necessary authorization before scanning any network.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## Support
+
+If you encounter any problems or have any questions, please open an issue on the GitHub repository.
+
+---
+
+Thank you for using NoIPScan!
