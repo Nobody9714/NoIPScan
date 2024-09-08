@@ -9,7 +9,7 @@ NoIPScan is a Python script designed to scan your local network for connected de
 - Concurrent scanning for improved speed
 - Various means to help identify devices other than using IP/MAC addresses.
 - Alphanumerically sortable list by either clicking the headers or right clicking in the list > sort > sorting option.
-- Disable MAC address lookup using https://api.macvendors.com. This will keep the scan local and not send requests out to the internet for more device information. Slightly increasing scan speed but it also makes it harder to identify what the devices on your network are.
+- Disable MAC address lookup using https://api.macvendors.com. This will keep the scan local and not send requests out to the internet for more device information. Slightly increasing scan speed but it also making it harder to identify what the devices on your network are.
   
 ## How to Use
 
