@@ -29,7 +29,7 @@ NoIPScan is a Python script designed to scan your local network for connected de
    
    c. Hide MAC Address, toggle to hide/unhide all mac addresses.
    
-   d. Disable MAC Address lookup on https://api.macvendors.com. This is encase you dont want to use this to help identify devices more thoroughly than just IP and MAC addresses.
+   d. Disable MAC Address lookup on https://api.macvendors.com. This is encase you dont want to use this feature to help identify devices more thoroughly than using just the IP and MAC addresses.
 
    e. # of scans to do on the network because sometimes 1 isn't enough.
 
