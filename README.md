@@ -33,6 +33,17 @@ NoIPScan is a Python script designed to scan your local network for connected de
 
    e. # of scans to do on the network because sometimes 1 isn't enough.
 
+## Requirements
+
+- [Python 3.6 or higher]([/wiki/contributing-guidelines](https://www.python.org/downloads/windows/)) (may need to manually install.)
+- Required Python libraries (will be installed automaticlly):
+  - `tkinter (usually included with Python)`
+  - `PIL (Python Imaging Library)`
+  - `netifaces`
+  - `getmac`
+  - `aiohttp`
+
+
 ## Installation
 
 Easy methode:
@@ -66,16 +77,6 @@ python NoIPScan.py
 4. The python script will check for and ask permission to install any missing dependencies. Press y then enter to move forward.
 
 
-## Requirements
-
-- [Python 3.6 or higher]([/wiki/contributing-guidelines](https://www.python.org/downloads/windows/)) (may need to manually install.)
-- Required Python libraries (will be installed automaticlly):
-  - `tkinter (usually included with Python)`
-  - `PIL (Python Imaging Library)`
-  - `netifaces`
-  - `getmac`
-  - `aiohttp`
-
 ## Uninstall
 
 Theres nothing to uninstall because its just a python script. If you want to uninstall the python libraries, you can do so in powershell with:
@@ -108,6 +109,8 @@ Polygon (MATIC):
 
 Solana (SOL):  
 Ccz6zf12AJB1xweDZ3SHhfJB9VgLxL52iLKjtzHL2nSb
+
+![solqr512](https://github.com/user-attachments/assets/e54fe04d-326f-4660-96fc-c6ca23f84006)
 
 ---
 
