@@ -1,3 +1,6 @@
+
+![avatar](https://github.com/user-attachments/assets/fa07bd41-7cc9-4399-97eb-63da1d62cf2c)
+
 ## Summary
 
 NoIPScan is a Python script designed to scan your local network for connected devices. I made this python script so there is an IP scanner option that is not full of bloatware, spyware, ads, data harvesting, or deceiving download links like you'll find on most websites. This tool was developed with the assistance of Claude 3.5 Sonnet and other generative AI models for everything including code, readme forematting, and images. Then edited as necessary.
