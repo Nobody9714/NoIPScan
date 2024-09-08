@@ -13,8 +13,6 @@ NoIPScan is a Python script designed to scan your local network for connected de
   
 ## How to Use
 
-Easy Methode: 
-
 1. Double click the file called "NoIpScan.bat".
    
 2. Agree to install any missing dependencies.
