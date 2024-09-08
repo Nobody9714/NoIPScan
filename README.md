@@ -74,13 +74,6 @@ python NoIPScan.py
   - `netifaces`
   - `mac_vendor_lookup`
 
-You can install the required libraries using pip:
-
-```
-pip install scapy netifaces mac-vendor-lookup
-```
-
-
 ## Disclaimer
 
 This tool is intended for use on networks you own or have permission to scan. Always ensure you have the necessary authorization before scanning any network.
