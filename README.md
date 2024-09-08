@@ -68,13 +68,21 @@ python NoIPScan.py
 
 ## Requirements
 
-- Python 3.6 or higher
-- Required Python libraries:
+- [Python 3.6 or higher]([/wiki/contributing-guidelines](https://www.python.org/downloads/windows/)) (may need to manually install.)
+- Required Python libraries (will be installed automaticlly):
   - `tkinter (usually included with Python)`
   - `PIL (Python Imaging Library)`
   - `netifaces`
   - `getmac`
   - `aiohttp`
+
+## Uninstall
+
+Theres nothing to uninstall because its just a python script. If you want to uninstall the python libraries, you can do so in powershell with:
+
+```
+pip uninstall (libraryname)
+```
 
 ## Disclaimer
 
