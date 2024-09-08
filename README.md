@@ -42,7 +42,7 @@ Easy methode:
    
 5. Open the NoIPScan folder.
    
-7. Double click the "NoIPScann.bat" file.
+7. Double click the file called "NoIPScan.bat".
    
 9. The python script will check for and ask permission to install any missing dependencies. Press y then enter to move forward.
 
