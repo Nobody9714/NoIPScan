@@ -72,7 +72,6 @@ python NoIPScan.py
 - Required Python libraries:
   - `tkinter (usually included with Python)`
   - `PIL (Python Imaging Library)`
-  - `scapy`
   - `netifaces`
   - `getmac`
   - `aiohttp`
