@@ -38,10 +38,10 @@ NoIPScan is a Python script designed to scan your local network for connected de
 
    f. Right click an entry in the list for more options.
 
-## Requirements - will be prompted to install if missing
+## Requirements - Will be prompted to install automatically if missing
 
 - [Python 3.6 or higher]([/wiki/contributing-guidelines](https://www.python.org/downloads/windows/))
-- Required Python libraries (will be installed automaticlly):
+- Required Python libraries:
   - `tkinter (usually included with Python)`
   - `PIL (Python Imaging Library)`
   - `netifaces`
