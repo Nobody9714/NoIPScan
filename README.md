@@ -18,7 +18,7 @@ NoIPScan is a Python script designed to scan your local network for connected de
 
 1. Double click the file called "NoIpScan.bat".
    
-2. Agree to install any missing dependencies.
+2. Agree to install Python and/or all missing dependencies.
    
 3. Everything in the program should be fine to leave as default. Just press the "Scan Network" button to scan for devices on your local network.
 
