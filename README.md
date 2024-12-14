@@ -3,7 +3,7 @@
 
 ## Summary
 
-NoIPScan is a Python script designed to scan your local network for connected devices. I made this python script so there is an IP scanner option that is not full of bloatware, spyware, ads, data harvesting, or deceiving download links like you'll find on most websites. This tool was developed with the assistance of Claude 3.5 Sonnet and other generative AI models for everything including code, readme forematting, and images. Then edited as necessary.
+NoIPScan is a Python script designed to scan your local network for connected devices. I made this python script so there is an IP scanner option that is not full of bloatware, spyware, ads, data harvesting, or deceiving download links like you'll find on most websites. This tool was developed with the assistance of Claude 3.5 Sonnet and other generative AI models for everything including code, readme forematting, and images, then edited as necessary.
 
 ## Features
 
@@ -38,9 +38,9 @@ NoIPScan is a Python script designed to scan your local network for connected de
 
    f. Right click an entry in the list for more options.
 
-## Requirements
+## Requirements - will be prompted to install if missing
 
-- [Python 3.6 or higher]([/wiki/contributing-guidelines](https://www.python.org/downloads/windows/)) (may need to manually install.)
+- [Python 3.6 or higher]([/wiki/contributing-guidelines](https://www.python.org/downloads/windows/))
 - Required Python libraries (will be installed automaticlly):
   - `tkinter (usually included with Python)`
   - `PIL (Python Imaging Library)`
@@ -51,7 +51,7 @@ NoIPScan is a Python script designed to scan your local network for connected de
 
 ## Installation
 
-Easy methode:
+Methode 1 (easy):
 1. Click the green "< > Code" button, then click "Download ZIP"
 
 ![1](https://github.com/user-attachments/assets/e255ebe3-834c-4c77-b408-f7a2ff33dc54)
@@ -66,7 +66,7 @@ Easy methode:
    
 5. The python script will check for and ask permission to install any missing dependencies. Press y then enter to move forward.
 
-Shell methode:
+Methode 2 (nerdy):
 1. Open a terminal and clone repository.
 ```
 git clone https://github.com/Nobody9714/NoIPScan.git
